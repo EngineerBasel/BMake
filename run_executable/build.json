@@ -1,0 +1,21 @@
+{
+    "bin": "run.exe",
+    "compiler": "",
+    "flags": [
+        ""
+    ],
+    "include_folders": [
+        "include"
+    ],
+    "libraries": [
+        ""
+    ],
+    "libraries_folders": [
+        ""
+    ],
+    "sources_files": [
+        "main.cpp",
+        "runner.cpp"
+    ],
+    "state": "Debug"
+}

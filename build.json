@@ -1,0 +1,27 @@
+{
+  "bin": "bmake.exe",
+  "compiler": "clang++",
+  "flags": [
+    "-std=c++17"
+  ],
+  "include_folders": [
+    "include"
+  ],
+  "libraries": [
+    ""
+  ],
+  "libraries_folders": [
+    ""
+  ],
+  "sources_files": [
+    "main.cpp",
+    "buildingFilesGenerator.cpp",
+    "functions.cpp",
+    "buildingFunctions.cpp",
+    "realProgramBuilder.cpp",
+    "helpFunctions.cpp",
+    "help.cpp",
+    "runner.cpp"
+  ],
+  "state": "Release"
+}

@@ -1,0 +1,1 @@
+clang++ src/*.cpp -std=c++17 -Iinclude -o bin/bmake.exe
