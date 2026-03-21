@@ -1,0 +1,22 @@
+{
+    "bin": "chelp.exe",
+    "compiler": "clang++",
+    "flags": [
+        ""
+    ],
+    "include_folders": [
+        "include"
+    ],
+    "libraries": [
+        ""
+    ],
+    "libraries_folders": [
+        ""
+    ],
+    "sources_files": [
+        "main.cpp",
+        "help.cpp",
+        "helpFunctions.cpp"
+    ],
+    "state": "Release"
+}
