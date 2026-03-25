@@ -1,0 +1,19 @@
+name: Auto Attach Asset to Release
+on:
+  release:
+    types: [published] # هيشتغل لوحده أول ما تدوس Publish لـ Release جديد
+
+jobs:
+  update-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Upload BMake to Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: Release/BMake.exe # المسار اللي إنت بعتهولي بالظبط
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
